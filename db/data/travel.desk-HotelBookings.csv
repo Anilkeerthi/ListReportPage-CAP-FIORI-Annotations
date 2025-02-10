@@ -1,0 +1,6 @@
+BookingID,RequestID,HotelName,CheckInDate,CheckOutDate,RoomType
+1,1,Grand Hotel,2023-10-01,2023-10-05,Deluxe Suite
+2,2,Seaside Resort,2023-10-06,2023-10-10,Ocean View Room
+3,3,Mountain Lodge,2023-10-11,2023-10-15,Standard Room
+4,4,Lakeside Inn,2023-10-16,2023-10-20,King Room
+5,5,City Center Hotel,2023-10-21,2023-10-25,Executive Room

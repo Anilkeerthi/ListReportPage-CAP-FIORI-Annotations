@@ -1,0 +1,6 @@
+ExpenseID,RequestID,ExpenseType,Amount,Currency,DateIncurred
+1,1,Travel,250.00,USD,2023-10-01
+2,2,Meals,75.00,USD,2023-10-02
+3,3,Accommodation,500.00,USD,2023-10-03
+4,4,Transportation,150.00,USD,2023-10-04
+5,5,Entertainment,100.00,USD,2023-10-05

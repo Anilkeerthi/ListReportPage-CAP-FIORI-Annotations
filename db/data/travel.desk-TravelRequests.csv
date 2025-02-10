@@ -1,0 +1,6 @@
+RequestID,EmployeeID,Destination,TravelDate,ReturnDate,Status
+1,1,New York,2023-10-01,2023-10-05,Confirmed
+2,2,Los Angeles,2023-10-10,2023-10-15,Pending
+3,3,Chicago,2023-10-20,2023-10-25,Cancelled
+4,4,Houston,2023-11-01,2023-11-05,Confirmed
+5,5,Miami,2023-11-10,2023-11-15,Pending

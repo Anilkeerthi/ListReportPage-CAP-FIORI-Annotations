@@ -1,0 +1,6 @@
+EmployeeID,Name,Email,Phone,Department,Designation,JoiningDate,ManagerID,Location,EmploymentType,Salary,Rating
+1,John Doe,johndoe@example.com,123-456-7890,Sales,Sales Executive,2023-01-15,2,New York,Full-Time,60000,1
+2,Jane Smith,janesmith@example.com,987-654-3210,Marketing,Marketing Manager,2022-05-10,1,Los Angeles,Full-Time,75000,2
+3,Emily Johnson,emilyjohnson@example.com,555-123-4567,IT,Software Engineer,2023-03-20,2,San Francisco,Full-Time,90000,3
+4,Mike Brown,mikebrown@example.com,444-555-6666,HR,HR Specialist,2023-06-01,1,Chicago,Full-Time,65000,4
+5,Laura Wilson,laurawilson@example.com,222-333-4444,Finance,Financial Analyst,2023-07-10,2,Boston,Full-Time,70000,5
