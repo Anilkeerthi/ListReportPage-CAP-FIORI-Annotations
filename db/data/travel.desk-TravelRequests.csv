@@ -1,6 +1,37 @@
-RequestID,EmployeeID,Destination,TravelDate,ReturnDate,Status
-1,1,New York,2023-10-01,2023-10-05,Confirmed
-2,2,Los Angeles,2023-10-10,2023-10-15,Pending
-3,3,Chicago,2023-10-20,2023-10-25,Cancelled
-4,4,Houston,2023-11-01,2023-11-05,Confirmed
-5,5,Miami,2023-11-10,2023-11-15,Pending
+RequestID,EmployeeID,Destination,TravelDate,ReturnDate,Status,to_Employees_EmployeeID
+1,1,New York,2023-10-01,2023-10-10,Approved,1
+2,2,Los Angeles,2023-10-05,2023-10-15,Pending,2
+3,3,Chicago,2023-10-07,2023-10-12,Approved,3
+4,4,Miami,2023-10-08,2023-10-14,Rejected,4
+5,5,Houston,2023-10-09,2023-10-16,Approved,5
+6,5,San Francisco,2023-10-11,2023-10-18,Pending,5
+7,6,Austin,2023-10-12,2023-10-19,Approved,6
+8,7,Dallas,2023-10-13,2023-10-20,Rejected,7
+9,8,Boston,2023-10-14,2023-10-21,Approved,8
+10,9,Seattle,2023-10-15,2023-10-22,Pending,9
+11,10,Denver,2023-10-16,2023-10-23,Approved,10
+12,5,Chicago,2023-10-17,2023-10-24,Approved,5
+13,6,Los Angeles,2023-10-18,2023-10-25,Rejected,6
+14,7,San Diego,2023-10-19,2023-10-26,Pending,7
+15,8,Phoenix,2023-10-20,2023-10-27,Approved,8
+16,9,Las Vegas,2023-10-21,2023-10-28,Rejected,9
+17,10,Orlando,2023-10-22,2023-10-29,Approved,10
+18,5,Detroit,2023-10-23,2023-10-30,Pending,5
+19,6,Minneapolis,2023-10-24,2023-10-31,Approved,6
+20,7,Portland,2023-10-25,2023-11-01,Rejected,7
+21,8,Indianapolis,2023-10-26,2023-11-02,Approved,8
+22,9,Charlotte,2023-10-27,2023-11-03,Pending,9
+23,10,Nashville,2023-10-28,2023-11-04,Approved,10
+24,5,Columbus,2023-10-29,2023-11-05,Rejected,5
+25,6,Milwaukee,2023-10-30,2023-11-06,Approved,6
+26,7,Kansas City,2023-10-31,2023-11-07,Pending,7
+27,8,New Orleans,2023-11-01,2023-11-08,Approved,8
+28,9,San Antonio,2023-11-02,2023-11-09,Rejected,9
+29,10,St. Louis,2023-11-03,2023-11-10,Approved,10
+30,5,Salt Lake City,2023-11-04,2023-11-11,Pending,5
+31,6,Miami,2023-11-05,2023-11-12,Approved,6
+32,7,Boston,2023-11-06,2023-11-13,Rejected,7
+33,8,Dallas,2023-11-07,2023-11-14,Pending,8
+34,9,Los Angeles,2023-11-08,2023-11-15,Approved,9
+35,10,Chicago,2023-11-09,2023-11-16,Rejected,10
+40,5,New York,2023-11-10,2023-11-17,Approved,5

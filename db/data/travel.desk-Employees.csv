@@ -1,6 +1,31 @@
 EmployeeID,Name,Email,Phone,Department,Designation,JoiningDate,ManagerID,Location,EmploymentType,Salary,Rating
-1,John Doe,johndoe@example.com,123-456-7890,Sales,Sales Executive,2023-01-15,2,New York,Full-Time,60000,1
-2,Jane Smith,janesmith@example.com,987-654-3210,Marketing,Marketing Manager,2022-05-10,1,Los Angeles,Full-Time,75000,2
-3,Emily Johnson,emilyjohnson@example.com,555-123-4567,IT,Software Engineer,2023-03-20,2,San Francisco,Full-Time,90000,3
-4,Mike Brown,mikebrown@example.com,444-555-6666,HR,HR Specialist,2023-06-01,1,Chicago,Full-Time,65000,4
-5,Laura Wilson,laurawilson@example.com,222-333-4444,Finance,Financial Analyst,2023-07-10,2,Boston,Full-Time,70000,5
+1,John Doe,johndoe@example.com,123-456-7890,Engineering,Software Engineer,2023-01-15,67890,New York,Full-Time,80000,4.5
+2,Jane Smith,janesmith@example.com,987-654-3210,Marketing,Marketing Manager,2022-03-20,67891,Los Angeles,Part-Time,60000,4.7
+3,Emily Johnson,emilyjohnson@example.com,234-567-8901,Sales,Sales Executive,2021-07-10,67892,Chicago,Full-Time,75000,4.2
+4,Michael Brown,michaelbrown@example.com,345-678-9012,Engineering,Senior Software Engineer,2020-05-25,67890,New York,Full-Time,95000,4.8
+5,Laura Wilson,laurawilson@example.com,456-789-0123,Human Resources,HR Specialist,2023-04-10,67893,San Francisco,Full-Time,70000,4.6
+6,David Martinez,davidmartinez@example.com,567-890-1234,Finance,Financial Analyst,2019-09-15,67894,Houston,Full-Time,72000,4.3
+7,Sophia Anderson,sophiaanderson@example.com,678-901-2345,Engineering,DevOps Engineer,2018-11-30,67895,Austin,Full-Time,85000,4.7
+8,James Wilson,jameswilson@example.com,789-012-3456,Marketing,Digital Marketer,2022-06-05,67891,Miami,Part-Time,58000,4.2
+9,Olivia Thompson,oliviathompson@example.com,890-123-4567,Sales,Account Manager,2021-08-20,67892,Dallas,Full-Time,78000,4.5
+10,Benjamin White,benjaminwhite@example.com,901-234-5678,Engineering,Backend Developer,2020-10-12,67890,San Diego,Full-Time,90000,4.6
+11,Emma Harris,emmaharris@example.com,012-345-6789,Human Resources,Recruitment Manager,2023-02-18,67893,Chicago,Full-Time,74000,4.4
+12,Alexander Scott,alexanderscott@example.com,123-456-7890,Finance,Investment Analyst,2019-05-10,67894,New York,Full-Time,76000,4.3
+13,Mia Roberts,miaroberts@example.com,234-567-8901,Marketing,Content Strategist,2022-11-03,67891,San Francisco,Part-Time,59000,4.5
+14,William King,williamking@example.com,345-678-9012,Sales,Sales Director,2017-07-15,67892,Los Angeles,Full-Time,97000,4.8
+15,Charlotte Young,charlotteyoung@example.com,456-789-0123,Engineering,Frontend Developer,2021-01-28,67890,Seattle,Full-Time,86000,4.6
+16,Daniel Hall,danielhall@example.com,567-890-1234,Finance,Senior Accountant,2018-12-12,67894,Boston,Full-Time,73000,4.2
+17,Evelyn Allen,evelynallen@example.com,678-901-2345,Marketing,Social Media Manager,2020-09-15,67891,Houston,Part-Time,62000,4.5
+18,Matthew Wright,matthewwright@example.com,789-012-3456,Sales,Key Account Executive,2019-04-10,67892,Chicago,Full-Time,79000,4.4
+19,Avery Hernandez,averyhernandez@example.com,890-123-4567,Engineering,Software Architect,2016-06-20,67890,New York,Full-Time,105000,4.9
+20,Harper Lopez,harperlopez@example.com,901-234-5678,Human Resources,Training Specialist,2022-07-05,67893,San Diego,Full-Time,71000,4.3
+21,Ethan Gonzalez,ethangonzalez@example.com,012-345-6789,Finance,Risk Analyst,2021-05-17,67894,San Francisco,Full-Time,75000,4.2
+22,Amelia Nelson,amelianelson@example.com,123-456-7890,Marketing,Brand Manager,2019-11-09,67891,Miami,Part-Time,65000,4.6
+23,Liam Carter,liamcarter@example.com,234-567-8901,Sales,Sales Consultant,2023-03-10,67892,Dallas,Full-Time,77000,4.4
+24,Isabella Mitchell,isabellamitchell@example.com,345-678-9012,Engineering,Full Stack Developer,2020-02-22,67890,Austin,Full-Time,89000,4.7
+25,Noah Perez,noahperez@example.com,456-789-0123,Human Resources,Compensation Analyst,2018-08-15,67893,Seattle,Full-Time,72000,4.2
+26,Sofia Adams,sofiaadams@example.com,567-890-1234,Finance,Tax Consultant,2022-01-08,67894,Boston,Full-Time,73000,4.3
+27,Lucas Morris,lucasmorris@example.com,678-901-2345,Marketing,PR Manager,2020-12-05,67891,Houston,Part-Time,60000,4.5
+28,Elijah Reed,elijahreed@example.com,789-012-3456,Sales,Regional Sales Manager,2017-09-30,67892,New York,Full-Time,98000,4.8
+29,Aubrey Bailey,aubreybailey@example.com,890-123-4567,Engineering,QA Engineer,2021-06-14,67890,Chicago,Full-Time,87000,4.6
+30,Henry Stewart,henrystewart@example.com,901-234-5678,Human Resources,HR Director,2016-11-20,67893,Los Angeles,Full-Time,99000,4.7
