@@ -1,6 +1,8 @@
 using travelService as travel from './service';
 
 
+
+
 annotate travel.Employees with @(
 
   UI.DataPoint #Rating: {
@@ -679,5 +681,137 @@ annotate travel.Expenses with @(
 );
 
 
+// annotate travel.TravelRequests with @(
+//   UI.SelectionVariant #Pending : {
+//     $Type : 'UI.SelectionVariantType',
+//     SelectOptions : [
+//       {
+//         $Type : 'UI.SelectOptionType',
+//         PropertyName : Status,
+//         Ranges : [
+//           {
+//             $Type : 'UI.SelectionRangeType',
+//             Option : #EQ,
+//             Sign : #I,                                          //  The Sign property is mandatory in the SelectionRangeType. The Sign determines whether the range includes (I for Include) or excludes (E for Exclude) the values.
+//             Low : 'Pending'
+//           }
+//         ]
+//       }
+//     ],
+//     Text : 'Pending'
+//   },
+  
+//   UI.SelectionVariant #Approved : {
+//     $Type : 'UI.SelectionVariantType',
+//     SelectOptions : [
+//       {
+//         $Type : 'UI.SelectOptionType',
+//         PropertyName : Status,
+//         Ranges : [
+//           {
+//             $Type : 'UI.SelectionRangeType',
+//             Option : #EQ,
+//              Sign : #I,
+//             Low : 'Approved'
+//           }
+//         ]
+//       }
+//     ],
+//     Text : 'Approved'
+//   },
 
+//   UI.SelectionVariant #Rejected : {
+//     $Type : 'UI.SelectionVariantType',
+//     SelectOptions : [
+//       {
+//         $Type : 'UI.SelectOptionType',
+//         PropertyName : Status,
+//         Ranges : [
+//           {
+//             $Type : 'UI.SelectionRangeType',
+//             Option : #EQ,
+//              Sign : #I,
+//             Low : 'Rejected'
+//           }
+//         ]
+//       }
+//     ],
+//     Text : 'Rejected'
+//   }
+// );
+
+// annotate travel.TravelRequests with @(
+//     // Main UI annotation for the list report
+//     UI: {
+//         SelectionFields: [Status],
+//         SelectionVariant #Pending: {
+//             $Type: 'UI.SelectionVariantType',
+//             Text: 'Pending',
+//             SelectOptions: [{
+//                 $Type: 'UI.SelectOptionType',
+//                 PropertyName: Status,
+//                 Ranges: [{
+//                     $Type: 'UI.SelectionRangeType',
+//                     Option: #EQ,
+//                     Sign: #I,
+//                     Low: 'Pending'
+//                 }]
+//             }]
+//         },
+//         SelectionVariant #Approved: {
+//             $Type: 'UI.SelectionVariantType',
+//             Text: 'Approved',
+//             SelectOptions: [{
+//                 $Type: 'UI.SelectOptionType',
+//                 PropertyName: Status,
+//                 Ranges: [{
+//                     $Type: 'UI.SelectionRangeType',
+//                     Option: #EQ,
+//                     Sign: #I,
+//                     Low: 'Approved'
+//                 }]
+//             }]
+//         },
+//         SelectionVariant #Rejected: {
+//             $Type: 'UI.SelectionVariantType',
+//             Text: 'Rejected',
+//             SelectOptions: [{
+//                 $Type: 'UI.SelectOptionType',
+//                 PropertyName: Status,
+//                 Ranges: [{
+//                     $Type: 'UI.SelectionRangeType',
+//                     Option: #EQ,
+//                     Sign: #I,
+//                     Low: 'Rejected'
+//                 }]
+//             }]
+//         },
+//         // Define LineItem annotation for the table columns
+//         LineItem: [
+//             {Value: EmployeeID},
+//             {Value: Destination},
+//             {Value: TravelDate},
+//             {Value: ReturnDate},
+//             {Value: Status}
+//         ],
+//         // Define PresentationVariant for default sorting and grouping
+//         PresentationVariant: {
+//             SortOrder: [{
+//                 Property: TravelDate,
+//                 Descending: true
+//             }],
+//             Visualizations: ['@UI.LineItem']
+//         }
+//     }
+// );
+annotate travel.Employees with @() {
+ Department @(Common.ValueList: {
+    CollectionPath: 'Employees',
+    Parameters    : [{
+      $Type            : 'Common.ValueListParameterInOut',
+      LocalDataProperty: 'Department',
+      ValueListProperty: 'Department'
+    }]
+  })
+}
 

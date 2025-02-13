@@ -33,6 +33,7 @@ entity TravelRequests {
       to_Employees : Association to Employees
 }
 
+
 entity FlightBookings {
   key BookingID     : Integer;
       RequestID     : Integer;
@@ -64,6 +65,8 @@ entity Expenses {
 }
 
 
+
+
 //---------- For Value Help----------//
 
 // In the Value help we will get the entire data of perticular column data
@@ -85,12 +88,5 @@ annotate travel.desk.Employees with @() {
     ]
   });
 
-  Department @(Common.ValueList: {
-    CollectionPath: 'Employees',
-    Parameters    : [{
-      $Type            : 'Common.ValueListParameterInOut',
-      LocalDataProperty: 'Department',
-      ValueListProperty: 'Department'
-    }]
-  })
+ 
 };
